@@ -1,0 +1,13 @@
+﻿@model SignUpEmailConfirmation.ViewModels.User
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Merhaba @Model.UserName</h1>
+    <p>Kayıt işlemi başarılı bir şekilde gerçekleşmiştir.</p>
+    <h2>Bilgiler</h2>
+    <p>Email: @Model.Email</p>
+    <p>Şifre: @Model.Password</p>
+</div>
